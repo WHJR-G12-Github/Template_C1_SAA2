@@ -11,18 +11,20 @@ screen = pygame.display.set_mode((400,600))
 pygame.display.set_caption("Rectangles on the same axis")
 
 # Creating RED rectangle
-RED=(255,0,0)
+RED=(          )
 red_rect=pygame.Rect(100,200,100,100)
 pygame.draw.rect(screen,RED,red_rect)
 
 # Creating GREEN rectangle
-GREEN=(0,255,0)
+GREEN=(        )
 green_rect=pygame.Rect(150,250,100,100)
 pygame.draw.rect(screen,GREEN,green_rect)
 
 # Creating BLUE rectangle
-BLUE=(0,0,255)
-blue_rect=pygame.Rect(200,300,100,100)
+BLUE=(         )
+# x = (x of green_rect) + (width/2) 
+# y = (y of green_rect) + (height/2) 
+blue_rect=pygame.Rect(    ,     ,100,100)
 pygame.draw.rect(screen,BLUE,blue_rect)
 
 # Updating the screen display
